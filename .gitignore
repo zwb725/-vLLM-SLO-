@@ -1,0 +1,43 @@
+# Build outputs
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.cache/
+
+# Large or generated benchmark artifacts
+benchmarks/results/*
+!benchmarks/results/.gitkeep
+*.log
+*.nsys-rep
+*.sqlite
+
+# Model/data artifacts
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Secrets
+.env
+*.key
+*.pem
+*.token
+
+# IDE and OS
+.idea/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+.DS_Store

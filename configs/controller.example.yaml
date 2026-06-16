@@ -1,0 +1,16 @@
+# 示例配置，当前阶段不由 C++ 程序解析。
+admission:
+  min_inflight: 2
+  max_inflight: 8
+  max_queue_size: 32
+  target_p95_ttft_ms: 800
+  critical_p95_ttft_ms: 1600
+  max_kv_cache_usage_ratio: 0.85
+  max_gpu_memory_usage_ratio: 0.90
+  max_waiting_requests: 64
+  recovery_ratio: 0.75
+  cooldown_samples: 3
+
+rate_limit:
+  token_bucket_capacity: 16
+  refill_rate_per_second: 4
