@@ -7,9 +7,11 @@ cmake_install.cmake
 compile_commands.json
 
 # Local environments and caches
+.tools/
 .venv/
 venv/
 __pycache__/
+*.pyc
 .pytest_cache/
 .cache/
 
