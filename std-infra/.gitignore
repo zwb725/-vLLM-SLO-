@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+cmake-build-*/
+dist/
+*.egg-info/
+
+# Large or generated artifacts
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.engine
+*.plan
+*.nsys-rep
+*.qdrep
+*.sqlite
+*.csv
+*.jsonl
+
+# Local secrets and machine-specific files
+.env
+.env.*
+*.key
+*.pem
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
